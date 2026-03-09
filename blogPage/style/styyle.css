@@ -1,0 +1,42 @@
+:root{
+    --textPrimary : #088395; 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #37B7C3;
+} 
+.navbar .navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+    color:#fff;
+} 
+
+.navbar .navbar-brand span{
+    color:var(--textPrimary); 
+} 
+
+section h1{
+    color:black;
+    font-weight: 600;
+    text-align: center;
+} 
+
+section .caption{
+    color: gray;
+    font-weight: 100;
+    text-align: center;
+    font-style: italic;
+} 
+
+section .berita-utama{
+    color: black;
+    font-weight: 400;
+}
+
+footer{
+    background-color: #088395;
+}

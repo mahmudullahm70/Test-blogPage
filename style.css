@@ -1,0 +1,43 @@
+:root{
+    --textPrimary : #088395; 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #37B7C3;
+} 
+
+.navbar .navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+    color:#fff;
+} 
+
+.navbar .navbar-brand span{
+    color:var(--textPrimary); 
+} 
+
+.container-wrapper .container h1{
+    font-style: italic;
+    color: var(--textPrimary);
+} 
+
+.container-wrapper .container .row .col .card .card-body .btn{
+    background-color: #088395;
+    color: #fff;
+} 
+
+footer{
+    background-color: #088395;
+} 
+
+.container-wrapper .container .row .col .card .card-body .caption{
+    color: gray;
+    font-weight: 100;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+}
